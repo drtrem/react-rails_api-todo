@@ -1,0 +1,1363 @@
+Started GET "/" for ::1 at 2018-05-22 17:39:50 +0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  role "pribytkovskiy" does not exist
+):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:677:in `rescue in connect'
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:673:in `connect'
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2018-05-22 17:39:50 +0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  role "pribytkovskiy" does not exist
+):
+  
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:677:in `rescue in connect'
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:673:in `connect'
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.7) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (131.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (86.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5277929974492897470);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateProjects (20180522144846)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (62.7ms)[0m  [1m[35mCREATE TABLE "projects" ("id" serial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (19.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180522144846"]]
+  [1m[35m (38.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateTasks (20180523062606)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (64.0ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" serial primary key, "name" character varying, "status" boolean DEFAULT 'f', "project_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_02e851e3b7"
+FOREIGN KEY ("project_id")
+  REFERENCES "projects" ("id")
+)[0m
+  [1m[35m (28.0ms)[0m  [1m[35mCREATE  INDEX  "index_tasks_on_project_id" ON "tasks"  ("project_id")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180523062606"]]
+  [1m[35m (19.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-23 06:52:36.162584"], ["updated_at", "2018-05-23 06:52:36.162584"]]
+  [1m[35m (15.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5277929974492897470)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for ::1 at 2018-05-23 09:54:32 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/pribytkovskiy/.rvm/gems/ruby-2.4.0/gems/railties-5.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pribytkovskiy/.rvm/gems/ruby-2.4.0/gems/railties-5.0.7/lib/rails/templates/rails/welcome/index.html.erb (4.6ms)
+Completed 200 OK in 28ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2018-05-23 09:54:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (15.5ms)[0m  [1m[32mINSERT INTO "projects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Shopping Home"], ["created_at", "2018-05-23 07:14:30.665341"], ["updated_at", "2018-05-23 07:14:30.665341"]]
+  [1m[35m (31.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "projects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Shopping Food"], ["created_at", "2018-05-23 07:15:00.489922"], ["updated_at", "2018-05-23 07:15:00.489922"]]
+  [1m[35m (29.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "mop"], ["project_id", 1], ["created_at", "2018-05-23 07:19:25.289277"], ["updated_at", "2018-05-23 07:19:25.289277"]]
+  [1m[35m (30.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "bucket"], ["project_id", 1], ["created_at", "2018-05-23 07:19:55.967852"], ["updated_at", "2018-05-23 07:19:55.967852"]]
+  [1m[35m (24.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "milk"], ["project_id", 2], ["created_at", "2018-05-23 07:20:29.482006"], ["updated_at", "2018-05-23 07:20:29.482006"]]
+  [1m[35m (27.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "apple"], ["project_id", 2], ["created_at", "2018-05-23 07:20:35.299479"], ["updated_at", "2018-05-23 07:20:35.299479"]]
+  [1m[35m (16.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "cucumber"], ["project_id", 2], ["created_at", "2018-05-23 07:20:43.929585"], ["updated_at", "2018-05-23 07:20:43.929585"]]
+  [1m[35m (40.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/lists" for ::1 at 2018-05-23 10:30:21 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/lists"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/project" for ::1 at 2018-05-23 10:30:37 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/project"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/projects" for ::1 at 2018-05-23 10:30:40 +0300
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 99ms (Views: 8.6ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:30:47 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 15ms (Views: 4.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/api/v1/projects" for ::1 at 2018-05-23 11:30:52 +0300
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/projects" for ::1 at 2018-05-23 11:30:55 +0300
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:31:01 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:31:02 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:31:04 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:31:22 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:34:07 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:34:09 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:34:21 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:35:46 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:36:10 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:39:55 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2018-05-23 11:40:43 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/pribytkovskiy/.rvm/gems/ruby-2.4.0/gems/railties-5.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pribytkovskiy/.rvm/gems/ruby-2.4.0/gems/railties-5.0.7/lib/rails/templates/rails/welcome/index.html.erb (5.1ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api" for ::1 at 2018-05-23 11:40:53 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:41:55 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:51:31 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:51:31 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:51:32 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:51:32 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:51:54 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/projects" for ::1 at 2018-05-23 11:51:54 +0300
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects" for ::1 at 2018-05-23 11:52:01 +0300
+Processing by Api::V1::ProjectsController#index as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 11:52:16 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 12:18:37 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 12:18:46 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 12:18:48 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 12:18:48 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 12:18:49 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for ::1 at 2018-05-23 12:18:50 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 12:19:03 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 12:19:16 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 12:19:27 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/lists.json" for 127.0.0.1 at 2018-05-23 12:21:00 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/lists.json"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/lists.json" for 127.0.0.1 at 2018-05-23 12:21:10 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/lists.json"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 12:21:18 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 12:24:50 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 12:24:56 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 12:26:37 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 13:48:58 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 13:49:16 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 13:52:12 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks" for ::1 at 2018-05-23 14:04:31 +0300
+Processing by Api::V1::TasksController#index as HTML
+  [1m[36mTask Load (14.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 721ms (Views: 11.3ms | ActiveRecord: 96.0ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:09:24 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:10:44 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:23:19 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 23ms (Views: 4.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:23:44 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:24:00 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:24:06 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:24:49 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:33:43 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:40:17 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 14:54:24 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (9.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 32ms (Views: 4.3ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 15:17:19 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 15:19:14 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 15:19:23 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 15:19:32 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 15:32:13 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 15:34:00 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:27:42 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (66.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (59.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 310ms (Views: 8.3ms | ActiveRecord: 167.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:32:45 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/v1/projects" for 127.0.0.1 at 2018-05-23 16:33:06 +0300
+Processing by Api::V1::ProjectsController#create as HTML
+  Parameters: {"project"=>{"name"=>"test"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (44.0ms)[0m  [1m[32mINSERT INTO "projects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test"], ["created_at", "2018-05-23 13:33:06.153712"], ["updated_at", "2018-05-23 13:33:06.153712"]]
+  [1m[35m (74.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 122ms (Views: 0.6ms | ActiveRecord: 118.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:08 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:08 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:09 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:34 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:34 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:35 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:35 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:35 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:35 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:35 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:36 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:36 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:37 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:38 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:33:45 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:45:43 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:47:42 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 16:49:19 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 17:54:07 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/api/v1/projects/3" for 127.0.0.1 at 2018-05-23 17:54:09 +0300
+Processing by Api::V1::ProjectsController#destroy as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (22.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = $1[0m  [["project_id", 3]]
+  [1m[35mSQL (10.7ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 3]]
+  [1m[35m (22.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 153ms (ActiveRecord: 59.2ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 17:54:19 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-23 17:54:20 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 12:44:36 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Started POST "/api/v1/projects" for 127.0.0.1 at 2018-05-24 12:48:49 +0300
+Processing by Api::V1::ProjectsController#create as HTML
+  Parameters: {"project"=>{"name"=>"test"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (24.9ms)[0m  [1m[32mINSERT INTO "projects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test"], ["created_at", "2018-05-24 09:48:49.759364"], ["updated_at", "2018-05-24 09:48:49.759364"]]
+  [1m[35m (33.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 61ms (Views: 0.5ms | ActiveRecord: 58.1ms)
+
+
+Started DELETE "/api/v1/projects/4" for 127.0.0.1 at 2018-05-24 12:48:53 +0300
+Processing by Api::V1::ProjectsController#destroy as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = $1[0m  [["project_id", 4]]
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 4]]
+  [1m[35m (17.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 24ms (ActiveRecord: 19.4ms)
+
+
+Started POST "/api/v1/projects" for 127.0.0.1 at 2018-05-24 12:48:56 +0300
+Processing by Api::V1::ProjectsController#create as HTML
+  Parameters: {"project"=>{"name"=>" test"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "projects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", " test"], ["created_at", "2018-05-24 09:48:56.510805"], ["updated_at", "2018-05-24 09:48:56.510805"]]
+  [1m[35m (201.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 205ms (Views: 0.6ms | ActiveRecord: 202.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 12:48:58 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (5.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 7ms (Views: 1.4ms | ActiveRecord: 5.2ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (62.4ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "cucumber"], ["project_id", 5], ["created_at", "2018-05-24 09:49:07.739536"], ["updated_at", "2018-05-24 09:49:07.739536"]]
+  [1m[35m (34.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "test"], ["project_id", 5], ["created_at", "2018-05-24 09:49:19.626447"], ["updated_at", "2018-05-24 09:49:19.626447"]]
+  [1m[35m (12.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 12:49:22 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/api/v1/projects/5" for 127.0.0.1 at 2018-05-24 12:49:25 +0300
+Processing by Api::V1::ProjectsController#destroy as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = $1[0m  [["project_id", 5]]
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 6]]
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 7]]
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 5]]
+  [1m[35m (16.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 34ms (ActiveRecord: 22.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 12:49:27 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 12:49:27 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 13:00:58 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 18ms (Views: 5.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 13:01:45 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 13:02:52 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 14:26:44 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:12:23 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (16.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 44ms (Views: 27.4ms | ActiveRecord: 16.2ms)
+
+
+Started POST "/api/v1/projects" for 127.0.0.1 at 2018-05-24 17:12:39 +0300
+Processing by Api::V1::ProjectsController#create as HTML
+  Parameters: {"project"=>{"name"=>"test"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "projects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test"], ["created_at", "2018-05-24 14:12:39.624183"], ["updated_at", "2018-05-24 14:12:39.624183"]]
+  [1m[35m (24.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 28ms (Views: 0.5ms | ActiveRecord: 24.8ms)
+
+
+Started PUT "/api/v1/projects/6" for 127.0.0.1 at 2018-05-24 17:12:51 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"6", "project"=>{}}
+  [1m[36mProject Load (22.1ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+Completed 400 Bad Request in 24ms (ActiveRecord: 22.1ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/6" for 127.0.0.1 at 2018-05-24 17:12:53 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"6", "project"=>{}}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:18:12 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/api/v1/projects/6" for 127.0.0.1 at 2018-05-24 17:18:17 +0300
+Processing by Api::V1::ProjectsController#destroy as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = $1[0m  [["project_id", 6]]
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 6]]
+  [1m[35m (136.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 376ms (ActiveRecord: 219.5ms)
+
+
+Started POST "/api/v1/projects" for 127.0.0.1 at 2018-05-24 17:18:21 +0300
+Processing by Api::V1::ProjectsController#create as HTML
+  Parameters: {"project"=>{"name"=>"test"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "projects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test"], ["created_at", "2018-05-24 14:18:21.807003"], ["updated_at", "2018-05-24 14:18:21.807003"]]
+  [1m[35m (27.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 31ms (Views: 0.6ms | ActiveRecord: 28.4ms)
+
+
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:18:30 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:23:28 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 53ms (ActiveRecord: 129.4ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:23:38 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:32 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:34 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:35 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:35 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:36 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:36 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:36 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:37 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:27:40 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:27:43 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"Project"=>{"name"=>"test2"}, "id"=>"7", "project"=>{}}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: project):
+  
+app/controllers/api/v1/projects_controller.rb:55:in `project_params'
+app/controllers/api/v1/projects_controller.rb:30:in `update'
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:31:52 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:32:57 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"test2"}, "id"=>"7"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "projects" SET "name" = $1, "updated_at" = $2 WHERE "projects"."id" = $3[0m  [["name", "test2"], ["updated_at", "2018-05-24 14:32:57.719362"], ["id", 7]]
+  [1m[35m (24.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 28ms (Views: 0.5ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:33:21 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:33:26 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"test2"}, "id"=>"7"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:48:14 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:48:19 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:34 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:37 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:49:41 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"test3"}, "id"=>"7"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "projects" SET "name" = $1, "updated_at" = $2 WHERE "projects"."id" = $3[0m  [["name", "test3"], ["updated_at", "2018-05-24 14:49:41.490671"], ["id", 7]]
+  [1m[35m (15.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:47 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:48 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:48 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:49:52 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"test4"}, "id"=>"7"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "projects" SET "name" = $1, "updated_at" = $2 WHERE "projects"."id" = $3[0m  [["name", "test4"], ["updated_at", "2018-05-24 14:49:52.722614"], ["id", 7]]
+  [1m[35m (14.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 14.9ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:56 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:57 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:57 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:58 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:49:58 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:50:07 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:50:13 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"test5"}, "id"=>"7"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "projects" SET "name" = $1, "updated_at" = $2 WHERE "projects"."id" = $3[0m  [["name", "test5"], ["updated_at", "2018-05-24 14:50:13.777275"], ["id", 7]]
+  [1m[35m (20.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 24ms (Views: 0.4ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:52:59 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/api/v1/projects/7" for 127.0.0.1 at 2018-05-24 17:53:03 +0300
+Processing by Api::V1::ProjectsController#destroy as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = $1[0m  [["project_id", 7]]
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = $1[0m  [["id", 7]]
+  [1m[35m (23.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 56ms (ActiveRecord: 25.8ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:53:04 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/v1/projects" for 127.0.0.1 at 2018-05-24 17:53:08 +0300
+Processing by Api::V1::ProjectsController#create as HTML
+  Parameters: {"project"=>{"name"=>"test"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "projects" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "test"], ["created_at", "2018-05-24 14:53:08.096087"], ["updated_at", "2018-05-24 14:53:08.096087"]]
+  [1m[35m (70.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 75ms (Views: 0.5ms | ActiveRecord: 71.5ms)
+
+
+Started PUT "/api/v1/projects/8" for 127.0.0.1 at 2018-05-24 17:53:15 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"test2"}, "id"=>"8"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "projects" SET "name" = $1, "updated_at" = $2 WHERE "projects"."id" = $3[0m  [["name", "test2"], ["updated_at", "2018-05-24 14:53:15.988947"], ["id", 8]]
+  [1m[35m (23.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 27ms (Views: 0.5ms | ActiveRecord: 24.2ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-24 17:54:49 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/api/v1/projects/8" for 127.0.0.1 at 2018-05-24 17:54:55 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"test3"}, "id"=>"8"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "projects" SET "name" = $1, "updated_at" = $2 WHERE "projects"."id" = $3[0m  [["name", "test3"], ["updated_at", "2018-05-24 14:54:55.859467"], ["id", 8]]
+  [1m[35m (22.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 27ms (Views: 0.6ms | ActiveRecord: 23.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-25 15:43:44 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (30.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 280ms (Views: 250.1ms | ActiveRecord: 30.0ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-29 09:18:35 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-29 16:28:58 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-05-29 16:29:01 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
