@@ -19,16 +19,14 @@ class EditProjectForm extends Component {
     }
     render(){
         return(
-            <div className="col-lg-offset-2 col-lg-8 task">
-            <form className="change-task inputtop" onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit}>
             <input  name="name"
                     type="text"
                     placeholder="Title..."
                     value={this.state.name}
                     onChange={this.handleChange} />
-            <button className="add-task-btn">Update Project</button>
+            <button>Update Project</button>
             </form> 
-            </div>
         )
     }
 }

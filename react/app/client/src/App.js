@@ -6,10 +6,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Hello Hiplyst!</h1>
-        </header>
-        <ProjectsContainer />
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <h1>Simple todo list</h1>
+              <ProjectsContainer />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

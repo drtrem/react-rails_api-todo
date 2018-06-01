@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	/* background: linear-gradient(to bottom, rgba(184,181,147,1) 0%, rgba(214,141,32,1) 100%) no-repeat; */
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+}
+#root{
+    min-height: 100vh;
+}
+.add{
+	background: #486dad;
+	color: #fff;
+	width: 200px; 
+	height: 60px;	
+	text-transform: uppercase;
+	font-size: 15px;
+    outline: none;
+}
+.task{
+    background: #4b78b5;
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    margin-top: 20px;
+}
+.task a{
+    float: right;
+}
+.task img {
+    padding-right: 20px;
+}
+.add-task{
+    background: #d2d2d2;
+    height: 60px;
+    line-height: 60px;
+    color: #000;
+}
+.add-task-btn{
+	background: #78af91;
+	color: #fff;
+	width: 100px; 
+	height: 40px;	
+	font-size: 12px;
+    outline: none;
+    float: right;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.inputtop input{
+    width: 580px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.check-task{
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+    color: #000;
+}
+.check-task a{
+    float: right;
+}
+.check-task img {
+    padding-right: 20px;
+}
+.check-task input{
+    margin-right: 20px;
+}
+.input-project {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.change-task{
+    background: #4b78b5;;
+    height: 60px;
+    color: #000;
+}

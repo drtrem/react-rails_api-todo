@@ -9,6 +9,7 @@ class ProjectsContainer extends Component {
         super(props)
         this.state = {
             projects: [],
+            tasks: [],
             editingListId: null
         }
         this.addNewProject = this.addNewProject.bind(this)
@@ -25,8 +26,25 @@ class ProjectsContainer extends Component {
             });
         })
         .catch((error) => {console.log(error)})
+        axios.get('/api/v1/tasks.json')
+        .then((response) => {
+            console.log(response)
+            this.setState({
+                tasks: response.data
+            });
+        })
+        .catch((error) => {console.log(error)})
     }
     addNewProject(name) {
+        axios.post( '/api/v1/projects', { project: {name} })
+        .then((response) => {
+            console.log(response)
+            const projects = [ ...this.state.projects, response.data ]
+            this.setState({projects})
+        })
+        .catch((error) => {console.log(error)})
+    }
+    addNewTask(name) {
         axios.post( '/api/v1/projects', { project: {name} })
         .then((response) => {
             console.log(response)
@@ -55,7 +73,11 @@ class ProjectsContainer extends Component {
         .then((response) => {
             console.log(response);
             const projects = this.state.projects;
-            projects[id-1] = {id, name}
+            projects.forEach ( (project,i) => {
+                if ( project.id === id ) {
+                    projects[i] = {id, name};
+                }
+            })
             this.setState(() => ({
                 projects, 
                 editingProjectId: null
@@ -75,7 +97,8 @@ class ProjectsContainer extends Component {
                         />)
                     } else {
                         return (<Project 
-                                    project={project} 
+                                    project={project}
+                                    tasks={this.state.tasks}
                                     key={project.id} 
                                     onRemoveProject={this.removeProject}
                                     editingProject={this.editingProject} 
