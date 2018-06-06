@@ -16,6 +16,7 @@ class ProjectsContainer extends Component {
         this.removeProject = this.removeProject.bind(this)
         this.editingProject = this.editingProject.bind(this)
         this.editProject = this.editProject.bind(this)
+        this.addNewTask = this.addNewTask.bind(this)
     }
     componentDidMount() {
         axios.get('/api/v1/projects.json')
@@ -23,14 +24,6 @@ class ProjectsContainer extends Component {
             console.log(response)
             this.setState({
                 projects: response.data
-            });
-        })
-        .catch((error) => {console.log(error)})
-        axios.get('/api/v1/tasks.json')
-        .then((response) => {
-            console.log(response)
-            this.setState({
-                tasks: response.data
             });
         })
         .catch((error) => {console.log(error)})
@@ -44,12 +37,15 @@ class ProjectsContainer extends Component {
         })
         .catch((error) => {console.log(error)})
     }
-    addNewTask(name) {
-        axios.post( '/api/v1/projects', { project: {name} })
+    addNewTask(project_id, name) {
+        axios.post( '/api/v1/tasks', { task: {project_id, name} })
         .then((response) => {
+            console.log('work')
             console.log(response)
-            const projects = [ ...this.state.projects, response.data ]
-            this.setState({projects})
+            console.log(this.state.tasks)
+            const tasks = [ ...this.state.tasks, response.data ]
+            console.log(this.state.tasks)
+            this.setState({tasks})
         })
         .catch((error) => {console.log(error)})
     }
@@ -98,10 +94,10 @@ class ProjectsContainer extends Component {
                     } else {
                         return (<Project 
                                     project={project}
-                                    tasks={this.state.tasks}
                                     key={project.id} 
                                     onRemoveProject={this.removeProject}
-                                    editingProject={this.editingProject} 
+                                    editingProject={this.editingProject}
+                                    addNewTask={this.addNewTask} 
                         />)
                     }
                 })}
