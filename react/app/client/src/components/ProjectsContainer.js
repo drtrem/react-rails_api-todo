@@ -16,7 +16,6 @@ class ProjectsContainer extends Component {
         this.removeProject = this.removeProject.bind(this)
         this.editingProject = this.editingProject.bind(this)
         this.editProject = this.editProject.bind(this)
-        this.addNewTask = this.addNewTask.bind(this)
     }
     componentDidMount() {
         axios.get('/api/v1/projects.json')
@@ -34,18 +33,6 @@ class ProjectsContainer extends Component {
             console.log(response)
             const projects = [ ...this.state.projects, response.data ]
             this.setState({projects})
-        })
-        .catch((error) => {console.log(error)})
-    }
-    addNewTask(project_id, name) {
-        axios.post( '/api/v1/tasks', { task: {project_id, name} })
-        .then((response) => {
-            console.log('work')
-            console.log(response)
-            console.log(this.state.tasks)
-            const tasks = [ ...this.state.tasks, response.data ]
-            console.log(this.state.tasks)
-            this.setState({tasks})
         })
         .catch((error) => {console.log(error)})
     }
@@ -97,7 +84,6 @@ class ProjectsContainer extends Component {
                                     key={project.id} 
                                     onRemoveProject={this.removeProject}
                                     editingProject={this.editingProject}
-                                    addNewTask={this.addNewTask} 
                         />)
                     }
                 })}

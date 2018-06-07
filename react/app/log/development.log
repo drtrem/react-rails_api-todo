@@ -9050,3 +9050,976 @@ Processing by Api::V1::TasksController#index as JSON
 Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-06 17:49:37 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-06 17:50:09 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (4.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 8ms (Views: 3.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-06 17:50:34 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:50:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-06 17:55:54 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:55:54 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:55:54 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:55:54 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:55:54 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:55:54 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:55:54 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-06 17:56:18 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-06 17:56:34 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-06 17:56:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 09:43:05 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:43:05 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:43:05 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:43:05 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:43:05 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:43:05 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:43:05 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 09:45:15 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:15 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:15 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:15 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:15 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:15 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:15 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 09:45:18 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:18 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:19 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:45:19 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 09:46:49 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:46:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:46:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:46:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:46:50 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:46:50 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:46:50 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 09:57:11 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:12 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:12 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:13 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:13 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:13 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:13 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 09:57:16 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:16 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:16 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:16 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:16 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:16 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 09:57:16 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/v1/tasks" for 127.0.0.1 at 2018-06-07 09:57:19 +0300
+Processing by Api::V1::TasksController#create as HTML
+  Parameters: {"task"=>{"project_id"=>18, "name"=>"333"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "333"], ["project_id", 18], ["created_at", "2018-06-07 06:57:19.597536"], ["updated_at", "2018-06-07 06:57:19.597536"]]
+  [1m[35m (20.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 25ms (Views: 0.5ms | ActiveRecord: 21.6ms)
+
+
+Started GET "/api/v1/tasks/1" for 127.0.0.1 at 2018-06-07 10:01:20 +0300
+Processing by Api::V1::TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks" for 127.0.0.1 at 2018-06-07 10:01:25 +0300
+Processing by Api::V1::TasksController#index as HTML
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:02:18 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:05:26 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 99ms (Views: 5.6ms | ActiveRecord: 49.2ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:06:43 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:06:46 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:07:43 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:12:22 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:22 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 20ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:22 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:22 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:22 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:22 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:22 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/api/v1/tasks/14" for 127.0.0.1 at 2018-06-07 10:12:25 +0300
+Processing by Api::V1::TasksController#destroy as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 14]]
+  [1m[35m (23.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 29ms (ActiveRecord: 24.9ms)
+
+
+Started DELETE "/api/v1/tasks/13" for 127.0.0.1 at 2018-06-07 10:12:28 +0300
+Processing by Api::V1::TasksController#destroy as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 13]]
+  [1m[35m (15.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 20ms (ActiveRecord: 16.9ms)
+
+
+Started DELETE "/api/v1/tasks/12" for 127.0.0.1 at 2018-06-07 10:12:30 +0300
+Processing by Api::V1::TasksController#destroy as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 12]]
+  [1m[35m (143.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 146ms (ActiveRecord: 144.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:12:33 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:33 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:33 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:33 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:33 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:33 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:33 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.7ms)
+
+
+Started PUT "/api/v1/projects/18" for 127.0.0.1 at 2018-06-07 10:12:53 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"18"}, "id"=>"18"}
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:53 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:12:55 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/api/v1/projects/18" for 127.0.0.1 at 2018-06-07 10:12:59 +0300
+Processing by Api::V1::ProjectsController#update as HTML
+  Parameters: {"project"=>{"name"=>"18"}, "id"=>"18"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:12:59 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/api/v1/tasks/11" for 127.0.0.1 at 2018-06-07 10:13:21 +0300
+Processing by Api::V1::TasksController#destroy as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 11]]
+  [1m[35m (27.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 32ms (ActiveRecord: 28.9ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:13:23 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:13:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:13:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:13:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:13:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:13:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:13:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:15:23 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:16:07 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:07 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:07 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:07 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (4.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:07 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:07 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:07 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:16:34 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:34 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:35 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:16:35 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:17:27 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:17:27 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:17:27 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:17:27 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:17:27 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:17:27 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:17:27 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/v1/tasks" for 127.0.0.1 at 2018-06-07 10:17:35 +0300
+Processing by Api::V1::TasksController#create as HTML
+  Parameters: {"task"=>{"project_id"=>18, "name"=>"111"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "111"], ["project_id", 18], ["created_at", "2018-06-07 07:17:35.362112"], ["updated_at", "2018-06-07 07:17:35.362112"]]
+  [1m[35m (21.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 28ms (Views: 0.5ms | ActiveRecord: 22.6ms)
+
+
+Started DELETE "/api/v1/tasks/15" for 127.0.0.1 at 2018-06-07 10:17:36 +0300
+Processing by Api::V1::TasksController#destroy as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 15]]
+  [1m[35m (20.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 24ms (ActiveRecord: 21.7ms)
+
+
+Started POST "/api/v1/tasks" for 127.0.0.1 at 2018-06-07 10:17:53 +0300
+Processing by Api::V1::TasksController#create as HTML
+  Parameters: {"task"=>{"project_id"=>18, "name"=>"1111"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("name", "project_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "1111"], ["project_id", 18], ["created_at", "2018-06-07 07:17:53.426851"], ["updated_at", "2018-06-07 07:17:53.426851"]]
+  [1m[35m (26.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 32ms (Views: 0.5ms | ActiveRecord: 27.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-07 10:19:47 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:19:47 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:19:47 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:19:47 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:19:47 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:19:47 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-07 10:19:47 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+

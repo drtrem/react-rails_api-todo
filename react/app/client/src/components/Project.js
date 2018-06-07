@@ -1,6 +1,5 @@
 import React from 'react';
 import TasksContainer from './TasksContainer';
-import NewTaskForm from './NewTaskForm';
 
 const Project = ({project, tasks, onRemoveProject=f=>f, editingProject=f=>f, addNewTask=f=>f}) =>
       <div key={project.id}>
@@ -10,8 +9,6 @@ const Project = ({project, tasks, onRemoveProject=f=>f, editingProject=f=>f, add
           <a onClick={() => onRemoveProject(project.id)} className="delete-button-top"><img src="img/delete-top.png" alt=""/></a>
           <a onClick={() => editingProject(project.id)}><img src="img/edit-top.png" alt=""/></a>
         </div>
-        <NewTaskForm onNewTask={addNewTask} project={project} />
-        <hr/>
         <TasksContainer id={project.id} />
       </div>
 

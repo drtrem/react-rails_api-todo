@@ -1,10 +1,10 @@
 import React from 'react';
 
-const NewTaskForm = ({project, onNewTask = f => f}) => {
+const NewTaskForm = ({id, onNewTask = f => f}) => {
     let name_task
     const submit_task = e => {
         e.preventDefault()
-        onNewTask(project.id, name_task.value)
+        onNewTask(id, name_task.value)
         name_task.value = ''
         name_task.focus()
     }

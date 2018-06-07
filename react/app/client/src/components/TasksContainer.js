@@ -4,6 +4,7 @@ import Project from './Project';
 import NewProjectForm from './NewProjectForm';
 import EditProjectForm from './EditProjectForm';
 import Task from './Task';
+import NewTaskForm from './NewTaskForm';
 
 class TasksContainer extends Component {
     constructor(props){
@@ -11,9 +12,10 @@ class TasksContainer extends Component {
         this.state = {
             tasks: []
         }
-        this.removeProject = this.removeProject.bind(this)
-        this.editingProject = this.editingProject.bind(this)
-        this.editProject = this.editProject.bind(this)
+        this.removeTask = this.removeTask.bind(this)
+        this.editingTask = this.editingTask.bind(this)
+        this.editTask = this.editTask.bind(this)
+        this.addNewTask = this.addNewTask.bind(this)
     }
     componentDidMount() {
         axios.get('/api/v1/tasks.json')
@@ -25,34 +27,43 @@ class TasksContainer extends Component {
         })
         .catch((error) => {console.log(error)})
     }
-    removeProject(id) {
-        axios.delete( '/api/v1/projects/' + id )
+    addNewTask(project_id, name, status) {
+        axios.post( '/api/v1/tasks', { task: {project_id, name, status} })
         .then((response) => {
-            const projects = this.state.projects.filter(
-                (project) => project.id !== id
+            console.log(response)
+            const tasks = [ ...this.state.tasks, response.data ]
+            this.setState({tasks})
+        })
+        .catch((error) => {console.log(error)})
+    }
+    removeTask(id) {
+        axios.delete( '/api/v1/tasks/' + id )
+        .then((response) => {
+            const tasks = this.state.tasks.filter(
+                (task) => task.id !== id
             )
-            this.setState({projects})
+            this.setState({tasks})
          })
         .catch((error) => {console.log(error)})
     }
-    editingProject(id) {
+    editingTask(id) {
         this.setState({
-            editingProjectId: id
+            editingTaskId: id
         })
     }
-    editProject(id, name) {
-        axios.put( '/api/v1/projects/' + id, { project: {name} })
+    editTask(id, name) {
+        axios.put( '/api/v1/tasks/' + id, { task: {name} })
         .then((response) => {
             console.log(response);
-            const projects = this.state.projects;
-            projects.forEach ( (project,i) => {
-                if ( project.id === id ) {
-                    projects[i] = {id, name};
+            const tasks = this.state.tasks;
+            tasks.forEach ( (task,i) => {
+                if ( task.id === id ) {
+                    tasks[i] = {id, name};
                 }
             })
             this.setState(() => ({
-                projects, 
-                editingProjectId: null
+                tasks, 
+                editingtaskId: null
             }))
         })
         .catch((error) => {console.log(error)})
@@ -60,12 +71,14 @@ class TasksContainer extends Component {
     render() {
         return (
             <div className="tasks-container">
+                <NewTaskForm onNewTask={this.addNewTask} id={this.props.id} />
+                <hr/>
                 {this.state.tasks.map( task => {
                   if (task.project_id === this.props.id) {
                     return (<Task
                               task={task} 
                               key={task.id}
-                              onRemoveTask={this.onRemoveTask}
+                              onRemoveTask={this.removeTask}
                               editingTask={this.editingTask} 
                               moveTask={this.moveTask}
                     />);
