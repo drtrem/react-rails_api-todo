@@ -86,8 +86,34 @@ h2{
     outline: 0;
 }
 
-.change-task{
-    background: #4b78b5;;
+.change-project{
+    background: #4b78b5;
     height: 60px;
     color: #000;
+}
+
+.change-task{
+    background: #d2d2d2;
+    height: 60px;
+    color: #000;
+}
+
+.add-task-btn-task{
+    background: #78af91;
+    color: #fff;
+    width: 100px; 
+    height: 40px;   
+    font-size: 12px;
+    outline: none;
+    float: right;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.task-change {
+    background: #d2d2d2;
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    margin-top: 20px;
 }
