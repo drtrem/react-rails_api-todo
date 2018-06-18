@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://blooming-dawn-18533.herokuapp.com/
 
-Things you may want to cover:
+ReactJS + Ruby on Rails API + Heroku App:
 
-* Ruby version
+use gem Foreman
 
-* System dependencies
+Functional:
+★ create/update/delete projects
+★ add tasks to my project
+★ update/delete tasks
+★ mark a task as 'done'
 
-* Configuration
+Technical requirements
+★ work like one page WEB application and should use AJAX technology, load and submit data without reloading a page
 
-* Database creation
+Future functional:
+★ prioritize tasks into a project
+★ choose deadline for task
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Future technical requirements:
+★ client side and server side validation
+★ automated tests for the all functionality
+★ user authentication solution and a user should only have access to their own projects and tasks
