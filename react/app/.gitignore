@@ -23,3 +23,6 @@
 
 /config/secrets.yml
 /config/database.yml
+
+react-rails_api-todo/react/app/config/database.yml
+react-rails_api-todo/react/app/config/secrets.yml
