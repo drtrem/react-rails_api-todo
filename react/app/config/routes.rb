@@ -3,6 +3,7 @@ Rails.application.routes.draw do
       namespace :v1 do
         resources :projects
         resources :tasks
+        resources :queries
       end
   end
 end

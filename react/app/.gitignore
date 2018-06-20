@@ -17,3 +17,9 @@
 .byebug_history
 
 /public
+
+/react/app/config/secrets.yml
+/react/app/config/database.yml
+
+/config/secrets.yml
+/config/database.yml
