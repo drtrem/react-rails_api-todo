@@ -30506,3 +30506,549 @@ Processing by Api::V1::QueriesController#index as HTML
 Completed 200 OK in 29ms (Views: 2.0ms | ActiveRecord: 9.9ms)
 
 
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-21 08:53:51 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (75.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 126ms (Views: 50.0ms | ActiveRecord: 75.2ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 08:53:52 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (41.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 53ms (Views: 10.1ms | ActiveRecord: 41.8ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 08:53:53 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 08:53:53 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 08:53:53 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 151ms (Views: 150.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 08:53:53 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 08:53:53 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 08:53:53 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 08:53:53 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-21 11:32:40 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (273.5ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 447ms (Views: 173.1ms | ActiveRecord: 273.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 11:32:42 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (18.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 24ms (Views: 5.6ms | ActiveRecord: 18.1ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 11:32:42 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (48.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 58ms (Views: 9.3ms | ActiveRecord: 48.6ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 11:32:42 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 11:32:42 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 11:32:42 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 11:32:42 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 11:32:42 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-21 11:32:42 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-22 09:10:48 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-22 09:10:48 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-22 09:10:48 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-22 09:10:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-22 09:10:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-22 09:10:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-22 09:10:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-22 09:10:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-22 09:10:49 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (6.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 15ms (Views: 8.2ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-23 09:59:06 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (257.8ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 306ms (Views: 47.4ms | ActiveRecord: 257.8ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-23 09:59:08 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (35.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 104ms (Views: 68.3ms | ActiveRecord: 35.8ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-23 09:59:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (27.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 34ms (Views: 6.0ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-23 09:59:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-23 09:59:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-23 09:59:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-23 09:59:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-23 09:59:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-23 09:59:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-25 09:16:54 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (43.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 97ms (Views: 53.2ms | ActiveRecord: 43.9ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-25 09:16:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-25 09:16:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-25 09:16:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-25 09:16:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-25 09:16:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-25 09:16:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-25 09:16:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-25 09:16:55 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-06-26 09:06:21 +0300
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mProject Load (172.6ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 202ms (Views: 29.1ms | ActiveRecord: 172.6ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-26 09:06:22 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (20.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 30ms (Views: 9.3ms | ActiveRecord: 20.7ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-26 09:06:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-26 09:06:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-26 09:06:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-26 09:06:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-26 09:06:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-26 09:06:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-06-26 09:06:23 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks/" for 127.0.0.1 at 2018-06-27 15:10:29 +0300
+Processing by Api::V1::TasksController#index as HTML
+  [1m[36mTask Load (14.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 40ms (Views: 24.9ms | ActiveRecord: 14.6ms)
+
+
+  [1m[36mProject Load (7.4ms)[0m  [1m[34mSELECT AVG(id) AS FROM Project[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT AVG(id) AS FROM Project[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT AVG(id) AS FROM Projects[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT AVG(id) FROM Project[0m
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT AVG(id) FROM Project[0m
+  [1m[36mProject Load (421.2ms)[0m  [1m[34mSELECT AVG(id) FROM Projects[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT AVG(name) FROM Projects[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT AVG(name) FROM Tasks WHERE project_id =18[0m
+  [1m[36mProject Load (26.7ms)[0m  [1m[34mSELECT AVG(id) FROM Tasks WHERE project_id = 18[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Tasks WHERE project_id = 18[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT AVG(id) FROM Tasks WHERE project_id = 18[0m
+Started GET "/api/v1/tasks/" for 127.0.0.1 at 2018-07-03 15:54:57 +0300
+Started GET "/api/v1/projects.json" for 127.0.0.1 at 2018-07-03 15:54:57 +0300
+Processing by Api::V1::TasksController#index as HTML
+Processing by Api::V1::ProjectsController#index as JSON
+  [1m[36mTask Load (421.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  [1m[36mProject Load (347.9ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+Completed 200 OK in 2436ms (Views: 1593.7ms | ActiveRecord: 421.8ms)
+
+
+Completed 200 OK in 2135ms (Views: 1583.2ms | ActiveRecord: 347.9ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-07-03 15:55:07 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (77.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 83ms (Views: 5.8ms | ActiveRecord: 77.1ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-07-03 15:55:07 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-07-03 15:55:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-07-03 15:55:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-07-03 15:55:09 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-07-03 15:55:10 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-07-03 15:55:10 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/tasks.json" for 127.0.0.1 at 2018-07-03 15:55:10 +0300
+Processing by Api::V1::TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.5ms)
+
+
+  [1m[36mProject Load (950.0ms)[0m  [1m[34mSELECT AVG(id) FROM Tasks WHERE project_id = 18[0m
+  [1m[36mProject Load (164.0ms)[0m  [1m[34mSELECT AVG(id) FROM Tasks WHERE project_id = 18[0m
+  [1m[36mTask Load (142.5ms)[0m  [1m[34mSELECT * DISTINCT FROM Task ORDER BY ASC[0m
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT * DISTINC FROM Task ORDER BY ASC[0m
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT DISTINCT * FROM Task ORDER BY ASC[0m
+  [1m[36mTask Load (54.0ms)[0m  [1m[34mSELECT DISTINCT * FROM Task ORDER BY status ASC[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT DISTINCT * FROM Task ORDER BY Status ASC[0m
+  [1m[36mTask Load (408.9ms)[0m  [1m[34mSELECT DISTINCT * FROM Tasks ORDER BY Status ASC[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT DISTINCT Status FROM Tasks ORDER BY Status ASC[0m
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT DISTINCT Status FROM Tasks ORDER BY Status DESC[0m
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT DISTINCT Status FROM Tasks ORDER BY Status ASC[0m
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT *SELECT COUNT(task) FROM Tasks WHERE Location = 'Moscow'[0m
+  [1m[36mTask Load (12.8ms)[0m  [1m[34mSELECT COUNT(task) AS CQ FROM Tasks INNER JOIN Projects ON tasks.project_id = projects.id ORDER BY CQ[0m
+  [1m[36mTask Load (91.4ms)[0m  [1m[34mSELECT COUNT(*) AS CQ FROM Tasks INNER JOIN Projects ON tasks.project_id = projects.id ORDER BY CQ[0m
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM Tasks INNER JOIN Projects ON tasks.project_id = projects.id[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM Tasks INNER JOIN Projects WHERE tasks.project_id = projects.id[0m
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM Tasks INNER JOIN Projects ON tasks.project_id = projects.id[0m
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM Tasks INNER JOIN Projects ON project.id = tasks.project_id[0m
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM Tasks INNER JOIN Projects ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (29.3ms)[0m  [1m[34mSELECT projects.id, COUNT(*) FROM Tasks INNER JOIN Projects ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT projects.id, COUNT(*) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT projects.id, COUNT(*) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id GROUP BY projects.name[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT projects.id, COUNT(task) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id GROUP BY projects.name[0m
+  [1m[36mTask Load (34.9ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id GROUP BY projects.name[0m
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks.name) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id GROUP BY projects.name[0m
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON tasks.project_id = projects.id GROUP BY projects.name[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id GROUP BY projects.name[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id GROUP BY projects.name[0m
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (118.2ms)[0m  [1m[34mSELECT * FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (15.4ms)[0m  [1m[34mSELECT COUNT(projects) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT COUNT(taskss) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id[0m
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.id = tasks.project_id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) FROM Projects RIGHT JOIN Tasks ON projects.id = tasks.project_id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mTask Load (29.0ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) AS task_count FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY task_count DESC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) AS task_count FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY task_count DESC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) AS task_count FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY task_count DESC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) AS task_count FROM tasks LEFT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY task_count DESC[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS task_count FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id projects.name ASC[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT COUNT(*) AS task_count FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT projects.id, COUNT(tasks) AS task_count FROM tasks LEFT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(*) AS task_count FROM tasks LEFT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM tasks LEFT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(*) FROM tasks LEFT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(*) FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(*) FROM tasks LEFT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(*), projects.name FROM tasks LEFT JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(*), projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(*) AS amount, projects.name FROM tasks INNER JOIN projects ON project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT COUNT(*) AS amount, projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(tasks) AS amount, projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS amount, projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT COUNT(*) AS amount, projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT COUNT(tasks) AS amount, projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(tasks.project_id), projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(*) FROM projects LEFT JOIN tasks ON tasks.project_id = projects.id GROUP BY projects.name[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(*) FROM projects LEFT JOIN tasks ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT projects.id, projects.name, COUNT(*) FROM projects LEFT JOIN tasks ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT projects.id, projects.name, COUNT(*) FROM projects LEFT JOIN tasks ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.id, projects.name, COUNT(*) FROM projects LEFT JOIN tasks ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT projects.id, projects.name, COUNT(*) FROM projects LEFT JOIN tasks ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(*) FROM projects LEFT JOIN tasks ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (1.2ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks.id) FROM tasks JOIN projects ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY projects.name[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT projects.name, COUNT(task.id) FROM tasks JOIN projects ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY projects.name[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks.id) FROM tasks JOIN projects ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY projects.name[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks.id) FROM tasks JOIN projects ON tasks.project_id = projects.id GROUP BY projects.id ORDER BY projects.name[0m
+  [1m[36mProject Load (36.3ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks.*)tasks FROM projects, tasks WHERE projects.projects_id = tasks.project_id GROUP BY projects.name ORDER BY projects.name[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks.*)tasks FROM projects, tasks WHERE projects.id = tasks.project_id GROUP BY projects.name ORDER BY projects.name[0m
+  [1m[36mProject Load (59.4ms)[0m  [1m[34mSELECT * FROM tasks WHERE tasks.name = 'N%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM tasks WHERE tasks.name = '%N'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM tasks WHERE tasks.name = 'N%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM tasks WHERE tasks.name = 'N%'[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT * FROM tasks ON tasks.name = 'N%'[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT * FROM tasks WHERE tasks.name = 'N%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM tasks LIKE tasks.name = 'N%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM tasks like tasks.name = 'N%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM tasks LIKE tasks.name = 'N%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM tasks LIKE name = 'N%'[0m
+  [1m[36mProject Load (185.8ms)[0m  [1m[34mSELECT * FROM tasks WHERE tasks.name LIKE 'N%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM Projects WHERE name LIKE '%a%'[0m
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT * FROM Projects WHERE name LIKE '%a%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM tasks WHERE tasks.name LIKE '%a%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Projects, COUNT(tasks) WHERE name LIKE '%a%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM Projects INNER JOIN Taks, COUNT(tasks) WHERE name LIKE '%a%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Projects, COUNT(tasks) INNER JOIN Taks WHERE name LIKE '%a%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Projects, COUNT(tasks) INNER JOIN Taks ON name LIKE '%a%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Projects, COUNT(tasks) INNER JOIN Tasks ON name LIKE '%a%'[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT * FROM Projects, COUNT(*) INNER JOIN Tasks ON name LIKE '%a%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT Project.name, COUNT(tasks) FROM Projects INNER JOIN Tasks ON name LIKE '%a%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT Project.name, COUNT(tasks) FROM Projects INNER JOIN Tasks ON project.name LIKE '%a%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT Project.name, COUNT(tasks) FROM Projects INNER JOIN Tasks ON projects.name LIKE '%a%'[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT Projects.name, COUNT(tasks) FROM Projects INNER JOIN Tasks ON Projects.name LIKE '%a%'[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT Projects.name, COUNT(tasks) FROM Projects INNER JOIN Tasks ON Projects.name LIKE '%a%'[0m
+  [1m[36mProject Load (25.6ms)[0m  [1m[34mSELECT Projects.name, COUNT(tasks) FROM Projects INNER JOIN Tasks ON Projects.name LIKE '%a%' GROUP BY Projects.nae[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT Projects.name, COUNT(tasks) FROM Projects INNER JOIN Tasks ON Projects.name LIKE '%a%' GROUP BY Projects.name[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT Projects.name, COUNT(tasks) FROM Projects INNER JOIN Tasks ON Projects.name LIKE '%a%' GROUP BY Projects.name[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT Projects.name, COUNT(tasks) FROM Projects RIGHT JOIN Tasks ON Projects.name LIKE '%a%' GROUP BY Projects.name[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks) AS task_count FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks) AS task_count FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks) AS FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks) FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name, COUNT(*) FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks) FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT projects.name, COUNT(task) FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT projects.name, COUNT(tasks) FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Tasks ORDER BY ASC[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Tasks ORDER BY Tasks.name ASC[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT * FROM Tasks WHERE name = name ORDER BY Tasks.name ASC[0m
+  [1m[36mProject Load (27.1ms)[0m  [1m[34mSELECT id, name FROM tasks WHERE name IN (SELECT name FROM tasks GROUP BY name HAVING COUNT(*) >1) ORDER BY name[0m
+  [1m[36mProject Load (1.2ms)[0m  [1m[34mSELECT tasks.name FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name = 'Garage'  GROUP BY tasks.name, tasks.status HAVING COUNT(tasks) > 1 ORDER BY COUNT(tasks)[0m
+  [1m[36mProject Load (13.6ms)[0m  [1m[34mSELECT name FROM projects INNER JOIN tasks ON projects.id = tasks.project_id IN (SELECT project_id FROM tasks HAVING COUNT(*) > 10) ORDER BY project_id[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT name FROM projects RIGHT JOIN tasks ON projects.id = tasks.project_id WHERE status = true ORDER BY projects.id[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT name FROM projects RIGHT JOIN tasks ON projects.id = tasks.project_id WHERE status = true GROUP BY projects.id ORDER BY projects.id[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT name FROM projects RIGHT JOIN tasks ON projects.id = tasks.project_id WHERE status = true GROUP BY projects.id ORDER BY projects.id[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT projects.name FROM projects RIGHT JOIN tasks ON projects.id = tasks.project_id WHERE status = true GROUP BY projects.id ORDER BY projects.id[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT projects.name FROM projects RIGHT JOIN tasks ON projects.id = tasks.project_id WHERE status = true HAVING COUNT(*) > 10 GROUP BY projects.id ORDER BY projects.id[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT projects.name FROM projects RIGHT JOIN tasks ON projects.id = tasks.project_id WHERE status = true GROUP BY projects.id HAVING COUNT(*) > 10 ORDER BY projects.id[0m
+  [1m[36mProject Load (10.3ms)[0m  [1m[34mSELECT id, name FROM tasks WHERE name IN (SELECT name FROM tasks GROUP BY name HAVING COUNT(tasks) >1) ORDER BY name[0m
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT id, name FROM tasks WHERE name IN (SELECT name FROM tasks GROUP BY name HAVING COUNT(*) >1) ORDER BY name[0m
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT projects.name, COUNT(projects) FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT projects.name, COUNT(*) FROM tasks RIGHT JOIN projects ON tasks.project_id = projects.id WHERE projects.name LIKE '%a%' GROUP BY projects.id[0m
+  [1m[36mProject Load (0.6ms)[0m  [1m[34mSELECT COUNT(tasks), projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT COUNT(task), projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(tasks), projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(projects), projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT COUNT(tasks), projects.name FROM tasks INNER JOIN projects ON tasks.project_id = projects.id GROUP BY projects.name ORDER BY projects.name ASC[0m
+Started GET "/api/v1/tasks/" for 127.0.0.1 at 2018-07-05 09:04:26 +0300
+Processing by Api::V1::TasksController#index as HTML
+  [1m[36mTask Load (93.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 116ms (Views: 22.7ms | ActiveRecord: 93.0ms)
+
+
+  [1m[36mProject Load (42.7ms)[0m  [1m[34mSELECT * FROM Projects INNER JOIN Tasks[0m
+  [1m[36mProject Load (0.5ms)[0m  [1m[34mSELECT * FROM Projects INNER JOIN Tasks ON *[0m
+  [1m[36mProject Load (22.3ms)[0m  [1m[34mSELECT * FROM Projects INNER JOIN Tasks ON 1=1 [0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Projects INNER JOIN Tasks ON projects.id = tasks.projects_id[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM Projects INNER JOIN Tasks ON projects.id = tasks.projects_id[0m
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT * FROM projects INNER JOIN tasks ON projects.id = tasks.projects_id[0m
+  [1m[36mProject Load (18.8ms)[0m  [1m[34mSELECT * FROM projects INNER JOIN tasks ON projects.id = tasks.project_id[0m

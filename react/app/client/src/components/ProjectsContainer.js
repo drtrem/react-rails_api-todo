@@ -20,7 +20,7 @@ class ProjectsContainer extends Component {
   componentDidMount() {
     axios.get('/api/v1/projects.json')
     .then((response) => {
-    console.log(response)
+      console.log(response)
       this.setState({
         projects: response.data
       });
