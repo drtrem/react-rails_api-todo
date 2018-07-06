@@ -2,9 +2,13 @@
 
 https://blooming-dawn-18533.herokuapp.com/
 
-ReactJS + Ruby on Rails API + Heroku App:
+ReactJS + Ruby on Rails API + Heroku App
 
-use gem Foreman
+Rails API with a separate frontend React app:
+
+web: cd client && PORT=3000 npm start
+
+api: PORT=3001 && bundle exec rails s
 
 Functional:
 

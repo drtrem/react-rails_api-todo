@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Project from './Project';
 import NewProjectForm from './NewProjectForm';
-import EditProjectForm from './EditProjectForm';
 
 class ProjectsContainer extends Component {
   constructor(props){
@@ -10,7 +9,7 @@ class ProjectsContainer extends Component {
     this.state = {
       projects: [],
       tasks: [],
-      editingListId: null
+      editingProjectId: null
     }
     this.addNewProject = this.addNewProject.bind(this)
     this.removeProject = this.removeProject.bind(this)
@@ -48,7 +47,7 @@ class ProjectsContainer extends Component {
   }
   editingProject(id) {
     this.setState({
-      editingProjectId: id
+      
     })
   }
   editProject(id, name) {
@@ -71,22 +70,12 @@ class ProjectsContainer extends Component {
   render() {
     return (
       <div className="projects-container">
-        {this.state.projects.map( project => {
-          if ( this.state.editingProjectId === project.id ) {
-            return (<EditProjectForm 
-              project={project} 
-              key={project.id} 
-              editProject={this.editProject}/>
-            )
-          } else {
-            return (<Project 
-              project={project}
-              key={project.id} 
-              onRemoveProject={this.removeProject}
-              editingProject={this.editingProject}/>
-            )
-          }
-        })}
+        <Project 
+          projects={this.state.projects} 
+          removeProject={this.removeProject} 
+          editProject={this.editProject} 
+          editingProject={this.editingProject} 
+          editingProjectId={this.editingProjectId}/>
         <NewProjectForm onNewProject={this.addNewProject} />
       </div>
     )
