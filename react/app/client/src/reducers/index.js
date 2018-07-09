@@ -1,7 +1,11 @@
 import { combineReducers } from 'redux';
-import projects from './projects';
 
+// Reducers
+import projectReducer from './projectReducer';
 
-export default combineReducers({
-  projects
-})
+// Combine Reducers
+var reducers = combineReducers({
+  projectState: projectReducer
+});
+
+export default reducers;

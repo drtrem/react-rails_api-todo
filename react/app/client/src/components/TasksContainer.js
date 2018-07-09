@@ -89,7 +89,6 @@ class TasksContainer extends Component {
     return (
       <div className="tasks-container">
         <NewTaskForm onNewTask={this.addNewTask} id={this.props.id} />
-        <hr/>
         {this.state.tasks.map( task => {
           if ( this.state.editingTaskId === task.id ) {
             return (<EditTaskForm 

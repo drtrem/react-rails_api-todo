@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import ProjectsContainer from './components/ProjectsContainer';
 import { connect } from 'react-redux';
 
@@ -20,16 +19,4 @@ class App extends Component {
   }
 }
 
-export default connect(
-  state => ({
-    project: state.project
-  }),
-  dispatch => ({
-    onAddProject: (project) => {
-      const payload = {
-        project.name
-      };
-      dispatch({ type: 'ADD_PROJECT', payload });
-    }
-  })
-)(App);
+export default App;
