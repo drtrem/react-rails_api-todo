@@ -4,7 +4,9 @@ class ProjectsController < ApplicationController
 
   # GET /projects
   def index
-    @projects = Project.all
+    @projects = Project.find_by_sql("SELECT *
+      FROM Projects INNER JOIN Tasks
+      ON Projects.id = Tasks.project_id");
 
     render json: @projects
   end
