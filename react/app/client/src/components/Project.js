@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import TasksContainer from './TasksContainer';
 import EditProjectForm from './EditProjectForm';
-import store from '../index';
 
 class Project extends Component {
   render() {
     return (
       this.props.projects.map( project => {
-        if ( store.projectState.editingProjectId === project.id ) {
+        if ( this.props.oneditingProjectId === project.id ) {
           return (<EditProjectForm 
             project={project} 
             key={project.id} 

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import axios from 'axios';
 import Project from './Project';
 import NewProjectForm from './NewProjectForm';
-import { Projects } from '../actions/projectActions';
 import * as projectApi from '../API/projectApi';
 
 class ProjectsContainer extends Component {
@@ -15,7 +13,8 @@ class ProjectsContainer extends Component {
     return (
       <div className="projects-container">
         <Project 
-          projects={this.props.projects} 
+          projects={this.props.projects}
+          oneditingProjectId={this.props.editingProjectId}
           removeProject={projectApi.removeProject} 
           editProject={projectApi.editProject} 
           editingProject={projectApi.editingProject} />
@@ -27,7 +26,8 @@ class ProjectsContainer extends Component {
 
 const mapStateToProps = function(store) {
   return {
-    projects: store.projectState.projects
+    projects: store.projectState.projects,
+    editingProjectId: store.projectState.editingProjectId
   };
 };
 

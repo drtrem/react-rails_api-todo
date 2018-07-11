@@ -21,6 +21,14 @@ export function removeProjectSuccess(projectId) {
   };
 }
 
+export function editingProjectSuccess(projectId) {
+  return {
+    type: types.EDITING_PROJECT_SUCCESS,
+    projectId
+  };
+}
+
+
 export function editProjectSuccess(projectId, projectName) {
   return {
     type: types.EDIT_PROJECT_SUCCESS,
