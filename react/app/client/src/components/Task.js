@@ -17,4 +17,4 @@ const Task = ({task, onRemoveTask=f=>f, editingTask=f=>f, moveTask=f=>f, onHandl
     </div>
   </div>
 
-export default Task;
+export default Task; 

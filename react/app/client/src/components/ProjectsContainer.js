@@ -32,3 +32,4 @@ const mapStateToProps = function(store) {
 };
 
 export default connect(mapStateToProps)(ProjectsContainer);
+ 

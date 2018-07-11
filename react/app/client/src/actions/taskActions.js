@@ -7,10 +7,10 @@ export function getTasksSuccess(tasks) {
   };
 }
 
-export function setTaskSuccess(taskName) {
+export function setTaskSuccess(task) {
   return {
     type: types.SET_TASK_SUCCESS,
-    taskName
+    task
   };
 }
 
@@ -29,10 +29,17 @@ export function editingTaskSuccess(taskId) {
 }
 
 
-export function editTaskSuccess(taskId, taskName) {
+export function editTaskSuccess(task) {
   return {
     type: types.EDIT_TASK_SUCCESS,
-    taskId,
-    taskName
+    task
   };
 }
+
+export function editTaskStatusSuccess(task) {
+  return {
+    type: types.EDIT_TASK_STATUS_SUCCESS,
+    task
+  };
+}
+ 

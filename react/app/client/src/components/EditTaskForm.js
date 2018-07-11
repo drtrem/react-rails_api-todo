@@ -4,10 +4,7 @@ class EditTaskForm extends Component {
   constructor(props) {
     super(props)
       this.state = {
-        id: this.props.task.id,
-        name: this.props.task.name,
-        status: this.props.task.status,
-        project_id: this.props.task.project_id
+        task: this.props.task
       }
       this.handleChange = this.handleChange.bind(this)
       this.handleSubmit = this.handleSubmit.bind(this)
@@ -17,8 +14,8 @@ class EditTaskForm extends Component {
   }
   handleSubmit(e){
     e.preventDefault();
-    const { id, name, status, project_id } = this.state;
-    this.props.editTask(id, name, status, project_id);
+    const task = this.state;
+    this.props.editTask(task);
   }
   
   render(){
@@ -28,7 +25,7 @@ class EditTaskForm extends Component {
           <input  name="name"
             type="text"
             placeholder="Title..."
-            value={this.state.name}
+            value={this.state.task.name}
             onChange={this.handleChange} />
           <button className="add-task-btn-task">Update Task</button>
         </form> 
@@ -38,3 +35,4 @@ class EditTaskForm extends Component {
 }
 
 export default EditTaskForm;
+ 
