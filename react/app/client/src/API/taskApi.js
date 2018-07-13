@@ -26,16 +26,16 @@ export function removeTask(id) {
 export function editingTask(id) {
   store.dispatch(editingTaskSuccess(id));
 }
-export function editTask(task) { 
-    axios.put( '/api/v1/tasks/' + task.id, { task: {task} })
+export function editTask(id, name, status, project_id) { 
+    axios.put( '/api/v1/tasks/' + id, { task: {name} })
     .then((response) => {
       store.dispatch(editTaskSuccess(response.data));
       store.dispatch(editingTaskSuccess(null));
     })
     .catch((error) => {console.log(error)})
 } 
-export function handleInputChange(task) {
-    axios.put( '/api/v1/tasks/' + task.id, { task: {task} })
+export function handleInputChange(id, name, status, project_id) {
+    axios.put( '/api/v1/tasks/' + id, { task: {status} })
     .then((response) => {
       store.dispatch(editTaskStatusSuccess(response.data));
     })

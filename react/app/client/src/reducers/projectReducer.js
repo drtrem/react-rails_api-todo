@@ -3,7 +3,6 @@ import _ from 'lodash';
 
 const initialState = {
   projects: [],
-  tasks: [],
   editingProjectId: null
 };
 

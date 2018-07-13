@@ -26,20 +26,20 @@ const taskReducer = function(state = initialState, action) {
     case types.EDIT_TASK_SUCCESS:
       const updatedTasks = state.tasks.map(task => {
         if(task.id === action.task.id){
-          return { task: action.task }
+          return action.task
         }
         return task
       })
       return Object.assign({}, state, { tasks: updatedTasks });
 
     case types.EDIT_TASK_STATUS_SUCCESS:
-      const updatedTasks2 = state.tasks.map(task => {
+      const updatedTasksStatus = state.tasks.map(task => {
         if(task.id === action.task.id){
-          return { task: action.task }
+          return action.task 
         }
         return task
       })
-      return Object.assign({}, state, { tasks: updatedTasks2 });
+      return Object.assign({}, state, { tasks: updatedTasksStatus });
 
 
     default: return state;
