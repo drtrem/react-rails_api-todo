@@ -27,7 +27,7 @@ class EditProjectForm extends Component {
             type="text"
             placeholder="Title..."
             value={this.state.name}
-            onChange={this.handleChange} />
+            onChange={this.handleChange} required/>
           <button className="add-task-btn">Update Project</button>
         </form> 
       </div>
@@ -36,3 +36,4 @@ class EditProjectForm extends Component {
 }
 
 export default EditProjectForm;
+ 

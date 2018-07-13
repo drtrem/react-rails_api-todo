@@ -24,6 +24,10 @@ Technical requirements:
 
 ★ work like one page WEB application and should use AJAX technology, load and submit data without reloading a page
 
+★ client side and server side validation
+
+★ React-Redux
+
 Future functional:
 
 ★ prioritize tasks into a project
@@ -31,8 +35,6 @@ Future functional:
 ★ choose deadline for task
 
 Future technical requirements:
-
-★ client side and server side validation
 
 ★ automated tests for the all functionality
 
