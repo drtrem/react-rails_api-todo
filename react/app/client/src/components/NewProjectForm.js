@@ -16,7 +16,7 @@ const NewProjectForm = ({onNewProject = f => f}) => {
           ref={input => name = input}
           type="text"
           placeholder="Add project..." required />
-        <button className="add center-block">Add Project</button>
+        <button className="add center-block add-project">Add Project</button>
       </form>
     </div>
   )

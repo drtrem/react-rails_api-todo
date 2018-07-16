@@ -28,7 +28,7 @@ class EditProjectForm extends Component {
             placeholder="Title..."
             value={this.state.name}
             onChange={this.handleChange} required/>
-          <button className="add-task-btn">Update Project</button>
+          <button className="add-task-btn edit">Update Project</button>
         </form> 
       </div>
     )

@@ -32,10 +32,12 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'foreman', '~> 0.82.0'
   gem 'thor', '~> 0.19.1'
-  
+
   gem 'rspec-rails', '~> 3.7'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers', '~> 3.1'
+  gem 'capybara', '~> 2.4.3'
+  gem 'selenium-webdriver'
 end
 
 group :development do

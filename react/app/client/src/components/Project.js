@@ -19,7 +19,7 @@ class Project extends Component {
                 <img src="img/icon-top.png" alt=""/>
                 <span>{project.id} {project.name}</span>
                 <a onClick={() => this.props.removeProject(project.id)} className="delete-button-top"><img src="img/delete-top.png" alt=""/></a>
-                <a onClick={() => this.props.editingProject(project.id)}><img src="img/edit-top.png" alt=""/></a>
+                <a onClick={() => this.props.editingProject(project.id)} className="edit-button-top"><img src="img/edit-top.png" alt=""/></a>
               </div>
               <TasksContainer id={project.id} />
             </div>
