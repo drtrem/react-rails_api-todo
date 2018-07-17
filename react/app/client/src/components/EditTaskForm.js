@@ -26,6 +26,7 @@ class EditTaskForm extends Component {
       <div className="col-lg-offset-2 col-lg-8 task-change">
         <form className="change-task inputtop" onSubmit={this.handleSubmit}>
           <input  name="name"
+            className="edit-task-input"
             type="text"
             placeholder="Title..."
             value={this.state.name}

@@ -13,8 +13,8 @@ const NewTaskForm = ({id, onNewTask = f => f}) => {
     <div className="col-lg-offset-2 col-lg-8 add-task">
       <form onSubmit={submit_task} className="inputtop" autoComplete="off">
         <img src="img/plus.png" alt=""/>
-        <input ref={input => name_task = input} type="text" name="new-task" placeholder="Add a new item..." required />
-        <button className="add-task-btn">Add Task</button>
+        <input className="input-task" ref={input => name_task = input} type="text" name="new-task" placeholder="Add a new item..." required />
+        <button className="input-task-button add-task-btn">Add Task</button>
       </form>
     </div>
   )

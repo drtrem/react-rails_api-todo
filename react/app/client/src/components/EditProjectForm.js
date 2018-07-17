@@ -24,6 +24,7 @@ class EditProjectForm extends Component {
       <div className="col-lg-offset-2 col-lg-8 task">
         <form className="change-project inputtop" onSubmit={this.handleSubmit}>
           <input  name="name"
+            className="change-project-input"
             type="text"
             placeholder="Title..."
             value={this.state.name}

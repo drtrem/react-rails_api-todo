@@ -12,7 +12,7 @@ const NewProjectForm = ({onNewProject = f => f}) => {
   return (
     <div className="col-lg-offset-2 col-lg-8">
       <form onSubmit={submit}>
-        <input  className="input-project center-block"
+        <input className="input-project center-block"
           ref={input => name = input}
           type="text"
           placeholder="Add project..." required />

@@ -1,4 +1,5 @@
-feature 'Projects', js: true do
+require "rails_helper"
+feature 'Projects', type: :feature, js: true do
 
   background do
     visit('http://localhost:3000/')
@@ -17,41 +18,40 @@ feature 'Projects', js: true do
   end
 
   scenario 'create project' do
-    find('.input-project center-block').set('new project name')
-    find('.add center-block').click
+    find(:css, 'input.input-project').set('new project name')
+    find('.add-project').click
 
     expect(page).to have_text('new project name')
   end
 
   scenario 'project dont create if name is blank' do
-    find('.input-project center-block').set('')
-    find('.add center-block').click
+    count = page.all('.project').size
+    find('.input-project').set('')
+    find('.add-project').click
 
-    expect(page).to_not have_css('.col-lg-offset-2 col-lg-8 task')
+    page.all('.project').size == count
   end
 
   scenario 'deleting project' do
-    find('.input-project center-block').set('project name')
-    find('.add center-block').click
+    find(:css, 'input.input-project').set('project name delete')
+    find('.add-project').click
 
-    expect(page).to have_text('project name')
+    expect(page).to have_text('project name delete')
 
-    all('.projects-container').first.hover
-    find('.delete-button-top').click
+    all('.delete-button-top').last.click
 
-    expect(page).to_not have_css('.col-lg-offset-2 col-lg-8 task')
+    expect(page).to_not have_text('project name delete')
   end
 
   scenario 'edit project name' do
-    find('.input-project center-block').set('some original name')
-    find('.add center-block').click
+    find(:css, 'input.input-project').set('some original name')
+    find('.add-project').click
 
     expect(page).to have_text('some original name')
 
-    all('.projects-container').first.hover
-    all('edit-button-top').first.click
-    all('.change-project inputtop').first.set('new project name')
-    find('.add-task-btn edit').click
+    all('.edit-button-top').last.click
+    find(:css, 'input.change-project-input').set('new project name')
+    find('.edit').click
 
     expect(page).to_not have_text('some original name')
     expect(page).to have_text('new project name')
@@ -59,16 +59,16 @@ feature 'Projects', js: true do
   end
 
   scenario 'change project name to "" ' do
-    find('.input-project center-block').set('some original name')
-    find('.add center-block').click
+    find(:css, 'input.input-project').set('some original name')
+    find('.add-project').click
 
     expect(page).to have_text('some original name')
 
-    all('.projects-container').first.hover
-    all('edit-button-top').first.click
-    all('.change-project inputtop').first.set('')
-    find('.add-task-btn edit').click
+    count = page.all('.project').size
+    all('.edit-button-top').last.click
+    find(:css, 'input.change-project-input').set('')
+    find('.edit').click
 
-    expect(page).to have_text('Заполните это поле')
+    page.all('.project').size == count
   end
 end 
