@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TasksContainer from './TasksContainer';
-import EditProjectForm from './EditProjectForm';
+import TasksContainer from '../containers/TasksContainer';
+import EditProjectForm from '../EditProjectForm';
 
 class Project extends Component {
   render() {

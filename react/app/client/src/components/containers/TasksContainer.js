@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Task from './Task';
-import NewTaskForm from './NewTaskForm';
-import * as taskApi from '../API/taskApi';
+import Task from '../views/Task';
+import NewTaskForm from '../NewTaskForm';
+import * as taskApi from '../../API/taskApi';
 
 class TasksContainer extends Component {
 

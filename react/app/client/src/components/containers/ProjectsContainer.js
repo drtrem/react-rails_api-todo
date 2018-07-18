@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Project from './Project';
-import NewProjectForm from './NewProjectForm';
-import * as projectApi from '../API/projectApi';
+import Project from '../views/Project';
+import NewProjectForm from '../NewProjectForm';
+import * as projectApi from '../../API/projectApi';
 
 class ProjectsContainer extends Component {
   componentDidMount() {

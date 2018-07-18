@@ -5,10 +5,10 @@ feature 'Tasks', type: :feature, js: true do
     visit('http://localhost:3000/')
   end
 
-  #before(:each) do
-  #  find(:css, 'input.input-project').set('new project name')
-  #  find('.add-project').click
-  #end
+  before(:each) do
+    find(:css, 'input.input-project').set('new project name')
+    find('.add-project').click
+  end
 
   scenario 'have main tasks container' do
     expect(page).to have_css('.App')

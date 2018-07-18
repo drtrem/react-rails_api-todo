@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectsContainer from './components/ProjectsContainer';
+import ProjectsContainer from './components/containers/ProjectsContainer';
 
 class App extends Component {
   render() {

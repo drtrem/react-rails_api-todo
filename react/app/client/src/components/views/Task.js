@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import EditTaskForm from './EditTaskForm';
-import * as taskApi from '../API/taskApi';
+import EditTaskForm from '../EditTaskForm';
+import * as taskApi from '../../API/taskApi';
+import Date from './Date';
  
 class Task extends Component {
   render() {
@@ -24,6 +25,7 @@ class Task extends Component {
                         onChange={() => taskApi.handleInputChange(task.id, task.name, (task.status ? false : true), task.project_id )}>
                       </input>
                       <span>{task.name}</span>
+                      <span><Date /></span>
                       <a onClick={() => taskApi.removeTask(task.id)} className="delete-button"><img src="img/delete.png" alt=""/></a>
                       <a onClick={() => taskApi.editingTask(task.id)} className="edit-button"><img src="img/edit.png" alt=""/></a>
                       <a><img src="img/move.png" alt=""/></a>
