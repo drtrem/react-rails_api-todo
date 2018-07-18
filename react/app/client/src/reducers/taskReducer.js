@@ -41,7 +41,6 @@ const taskReducer = function(state = initialState, action) {
       })
       return Object.assign({}, state, { tasks: updatedTasksStatus });
 
-
     default: return state;
   }
 }

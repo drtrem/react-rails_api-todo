@@ -25,10 +25,10 @@ class Task extends Component {
                         onChange={() => taskApi.handleInputChange(task.id, task.name, (task.status ? false : true), task.project_id )}>
                       </input>
                       <span>{task.name}</span>
-                      <span><Date /></span>
                       <a onClick={() => taskApi.removeTask(task.id)} className="delete-button"><img src="img/delete.png" alt=""/></a>
                       <a onClick={() => taskApi.editingTask(task.id)} className="edit-button"><img src="img/edit.png" alt=""/></a>
                       <a><img src="img/move.png" alt=""/></a>
+                      <a><Date task={task} editTaskDate={taskApi.editTaskDate} /></a>
                     </form>
                   </div>
                 </div>);
@@ -40,3 +40,4 @@ class Task extends Component {
 }
 
 export default Task;
+            

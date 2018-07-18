@@ -17,7 +17,7 @@ class Project extends Component {
             <div key={project.id}>
               <div className="project col-lg-offset-2 col-lg-8 task">
                 <img src="img/icon-top.png" alt=""/>
-                <span>{project.id} {project.name}</span>
+                <span>{project.name}</span>
                 <a onClick={() => this.props.removeProject(project.id)} className="delete-button-top"><img src="img/delete-top.png" alt=""/></a>
                 <a onClick={() => this.props.editingProject(project.id)} className="edit-button-top"><img src="img/edit-top.png" alt=""/></a>
               </div>

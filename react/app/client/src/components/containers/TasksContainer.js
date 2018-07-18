@@ -6,10 +6,6 @@ import * as taskApi from '../../API/taskApi';
 
 class TasksContainer extends Component {
 
-  componentDidMount() {
-    taskApi.getTasks(); 
-  }
-
   render() {
     return (
       <div className="tasks-container">

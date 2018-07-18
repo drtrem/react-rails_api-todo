@@ -40,4 +40,11 @@ export function handleInputChange(id, name, status, project_id) {
       store.dispatch(editTaskStatusSuccess(response.data));
     })
     .catch((error) => {console.log(error)})
-} 
+}
+export function editTaskDate(id, name, status, project_id, date) {
+    axios.put( '/api/v1/tasks/' + id, { task: {date} })
+    .then((response) => {
+      store.dispatch(editTaskStatusSuccess(response.data));
+    })
+    .catch((error) => {console.log(error)})
+}  

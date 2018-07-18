@@ -3,10 +3,12 @@ import { connect } from 'react-redux';
 import Project from '../views/Project';
 import NewProjectForm from '../NewProjectForm';
 import * as projectApi from '../../API/projectApi';
+import * as taskApi from '../../API/taskApi';
 
 class ProjectsContainer extends Component {
   componentDidMount() {
     projectApi.getProjects();
+    taskApi.getTasks();
   }
 
   render() {
