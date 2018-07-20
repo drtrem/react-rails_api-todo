@@ -12,7 +12,7 @@ class Date extends Component {
   }
 
   handleChange (date) {
-    this.props.editTaskDate(this.props.task.id, this.props.task.name, this.props.task.status, this.props.task.project_id, moment(date).format('YYYY-MM-DD'));
+    this.props.editTask(this.props.task.id, this.props.task.name, this.props.task.status, this.props.task.project_id, moment(date).format('YYYY-MM-DD'));
   }
 
   render () {

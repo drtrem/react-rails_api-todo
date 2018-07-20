@@ -13,9 +13,7 @@ class TasksContainer extends Component {
         <Task
           id={this.props.id}
           tasks={this.props.tasks}
-          editingTaskId={this.props.editingTaskId}
-          //moveTask={taskApi.moveTask}
-          />
+          editingTaskId={this.props.editingTaskId} />
       </div>
     )
   }

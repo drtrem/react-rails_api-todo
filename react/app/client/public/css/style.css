@@ -148,4 +148,9 @@ h2{
 div[class=react-datepicker__input-container] input {
   border: 0px;
   color: #000;
+  text-align: right;
+}
+
+div[class=react-datepicker__input-container] input:focus {
+  outline: none;
 }

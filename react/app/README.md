@@ -28,15 +28,15 @@ Technical requirements:
 
 ★ React-Redux
 
+★ automated tests for the all functionality
+
+★ choose deadline for task
+
 Future functional:
 
 ★ prioritize tasks into a project
 
-★ choose deadline for task
-
 Future technical requirements:
-
-★ automated tests for the all functionality
 
 ★ user authentication solution and a user should only have access to their own projects and tasks
 

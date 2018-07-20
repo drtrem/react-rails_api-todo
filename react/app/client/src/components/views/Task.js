@@ -22,13 +22,12 @@ class Task extends Component {
                         className="checkbox"
                         type="checkbox"
                         checked={task.status}
-                        onChange={() => taskApi.handleInputChange(task.id, task.name, (task.status ? false : true), task.project_id )}>
+                        onChange={() => taskApi.editTask(task.id, task.name, (task.status ? false : true), task.project_id, task.date)}>
                       </input>
                       <span>{task.name}</span>
                       <a onClick={() => taskApi.removeTask(task.id)} className="delete-button"><img src="img/delete.png" alt=""/></a>
                       <a onClick={() => taskApi.editingTask(task.id)} className="edit-button"><img src="img/edit.png" alt=""/></a>
-                      <a><img src="img/move.png" alt=""/></a>
-                      <a><Date task={task} editTaskDate={taskApi.editTaskDate} /></a>
+                      <a><Date task={task} editTask={taskApi.editTask} /></a>
                     </form>
                   </div>
                 </div>);

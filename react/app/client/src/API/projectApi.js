@@ -9,6 +9,7 @@ export function getProjects() {
     })
     .catch((error) => {console.log(error)})
 }
+
 export function addNewProject(name) {
   axios.post( '/api/v1/projects', { project: {name} })
   .then(response => {
@@ -16,6 +17,7 @@ export function addNewProject(name) {
   })
   .catch((error) => {console.log(error)})
 }
+
 export function removeProject(id) {
   axios.delete( '/api/v1/projects/' + id )
   .then(response => {
@@ -23,14 +25,16 @@ export function removeProject(id) {
   })
   .catch((error) => {console.log(error)})
 }
+
+export function editProject(id, name) {
+  axios.put( '/api/v1/projects/' + id, { project: {name} })
+  .then((response) => {
+    store.dispatch(editProjectSuccess(response.data.id, response.data.name));
+    store.dispatch(editingProjectSuccess(null));
+  })
+  .catch((error) => {console.log(error)})
+}
+
 export function editingProject(id) {
   store.dispatch(editingProjectSuccess(id));
-}
-export function editProject(id, name) {
-    axios.put( '/api/v1/projects/' + id, { project: {name} })
-    .then((response) => {
-      store.dispatch(editProjectSuccess(response.data.id, response.data.name));
-      store.dispatch(editingProjectSuccess(null));
-    })
-    .catch((error) => {console.log(error)})
 }

@@ -28,7 +28,6 @@ export function editingTaskSuccess(taskId) {
   };
 }
 
-
 export function editTaskSuccess(task) {
   return {
     type: types.EDIT_TASK_SUCCESS,
@@ -36,10 +35,3 @@ export function editTaskSuccess(task) {
   };
 }
 
-export function editTaskStatusSuccess(task) {
-  return {
-    type: types.EDIT_TASK_STATUS_SUCCESS,
-    task
-  };
-}
- 

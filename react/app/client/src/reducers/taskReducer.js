@@ -20,9 +20,6 @@ const taskReducer = function(state = initialState, action) {
       const newTasks = _.filter(state.tasks, task => task.id !== action.taskId);
       return Object.assign({}, state, { tasks: newTasks });
 
-    case types.EDITING_TASK_SUCCESS:
-      return Object.assign({}, state, { editingTaskId: action.taskId } );
-
     case types.EDIT_TASK_SUCCESS:
       const updatedTasks = state.tasks.map(task => {
         if(task.id === action.task.id){
@@ -32,14 +29,8 @@ const taskReducer = function(state = initialState, action) {
       })
       return Object.assign({}, state, { tasks: updatedTasks });
 
-    case types.EDIT_TASK_STATUS_SUCCESS:
-      const updatedTasksStatus = state.tasks.map(task => {
-        if(task.id === action.task.id){
-          return action.task 
-        }
-        return task
-      })
-      return Object.assign({}, state, { tasks: updatedTasksStatus });
+    case types.EDITING_TASK_SUCCESS:
+      return Object.assign({}, state, { editingTaskId: action.taskId } );
 
     default: return state;
   }
