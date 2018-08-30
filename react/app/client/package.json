@@ -9,13 +9,20 @@
   },
   "dependencies": {
     "axios": "0.18.0",
+    "history": "^4.7.2",
     "moment": "^2.22.2",
     "react": "^16.3.2",
     "react-datepicker": "^1.5.0",
     "react-dom": "^16.3.2",
     "react-redux": "5.0.7",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
     "react-scripts": "1.1.4",
-    "redux": "4.0.0"
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0",
+    "redux-token-auth" : "git+https://git@github.com/kylecorbelli/redux-token-auth.git"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,3 +31,6 @@
     "eject": "react-scripts eject"
   }
 }
+
+
+https://github.com/kylecorbelli/redux-token-auth.git

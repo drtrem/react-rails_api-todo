@@ -2,13 +2,14 @@
 
 https://blooming-dawn-18533.herokuapp.com/
 
-ReactJS + Ruby on Rails API + Heroku App
+React-Redux + Ruby on Rails API + Heroku App
 
 Rails API with a separate frontend React app:
 
 web: cd client && PORT=3000 npm start
 
 api: PORT=3001 && bundle exec rails s
+
 
 Functional:
 
@@ -22,23 +23,19 @@ Functional:
 
 Technical requirements:
 
-★ work like one page WEB application and should use AJAX technology, load and submit data without reloading a page
+★ work like one page WEB application and should use AJAX technology, load and submit data without reloading a page (react-redux, axios)
 
 ★ client side and server side validation
 
-★ React-Redux
-
 ★ automated tests for the all functionality
 
-★ choose deadline for task
+★ choose deadline for task (react-datepicker)
+
+★ user authentication solution and a user should only have access to their own projects and tasks (devise_token_auth & redux-token-auth)
 
 Future functional:
 
 ★ prioritize tasks into a project
-
-Future technical requirements:
-
-★ user authentication solution and a user should only have access to their own projects and tasks
 
 
 Given tables: 

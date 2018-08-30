@@ -28,6 +28,7 @@ class ProjectsContainer extends Component {
 
 const mapStateToProps = function(store) {
   return {
+    user: store.reduxTokenAuth.currentUser,
     projects: store.projectState.projects,
     editingProjectId: store.projectState.editingProjectId
   };

@@ -154,3 +154,7 @@ div[class=react-datepicker__input-container] input {
 div[class=react-datepicker__input-container] input:focus {
   outline: none;
 }
+
+.sign {
+  text-align: right;
+}
