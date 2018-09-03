@@ -158,3 +158,24 @@ div[class=react-datepicker__input-container] input:focus {
 .sign {
   text-align: right;
 }
+
+.move {
+  float: right;
+  display: inline-block;
+  width: 30px;
+  height: 60px;
+}
+
+.movebutton {
+  width: 30px;
+  height: 30px;
+}
+
+.down {
+  line-height: 0px;
+}
+
+a img {
+  margin: 0 0 0 30%; 
+  position: relative;
+}

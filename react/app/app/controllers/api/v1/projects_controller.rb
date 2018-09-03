@@ -1,6 +1,6 @@
 module Api::V1
   class ProjectsController < ApplicationController
-    before_action :set_project, only: [:show, :update, :destroy]
+    before_action :set_project, only: [:update, :destroy]
     before_action :authenticate_api_v1_user!
 
     # GET /projects
@@ -8,11 +8,6 @@ module Api::V1
       @projects = Project.where(user_id: current_api_v1_user.id)
 
       render json: @projects
-    end
-
-    # GET /projects/1
-    def show
-      render json: @project
     end
 
     # POST /projects

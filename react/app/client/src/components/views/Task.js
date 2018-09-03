@@ -6,7 +6,7 @@ import Date from './Date';
 class Task extends Component {
   render() {
     return (
-      this.props.tasks.map( task => {
+      [].concat(this.props.tasks).sort((a, b) => a.position > b.position).map( task => {
         if ( (this.props.editingTaskId === task.id) && (this.props.id === task.project_id) ) {
           return (<EditTaskForm 
             task={task} 
@@ -27,6 +27,11 @@ class Task extends Component {
                       <span>{task.name}</span>
                       <a onClick={() => taskApi.removeTask(task.id)} className="delete-button"><img src="img/delete.png" alt=""/></a>
                       <a onClick={() => taskApi.editingTask(task.id)} className="edit-button"><img src="img/edit.png" alt=""/></a>
+                      <div className="move">
+                        <a onClick={() => taskApi.moveTask(task.id, 'up')} className="edit-button movebutton"><img src="img/move_up.png" alt=""/></a>
+                        
+                        <a onClick={() => taskApi.moveTask(task.id, 'down')} className="edit-button movebutton down"><img src="img/move_down.png" alt=""/></a>
+                      </div>
                       <a><Date task={task} editTask={taskApi.editTask} /></a>
                     </form>
                   </div>

@@ -21,6 +21,8 @@ Functional:
 
 ★ mark a task as 'done'
 
+★ prioritize tasks into a project (acts_as_list)
+
 Technical requirements:
 
 ★ work like one page WEB application and should use AJAX technology, load and submit data without reloading a page (react-redux, axios)
@@ -32,10 +34,6 @@ Technical requirements:
 ★ choose deadline for task (react-datepicker)
 
 ★ user authentication solution and a user should only have access to their own projects and tasks (devise_token_auth & redux-token-auth)
-
-Future functional:
-
-★ prioritize tasks into a project
 
 
 Given tables: 

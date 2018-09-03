@@ -1,9 +1,8 @@
 class Task < ApplicationRecord
   belongs_to :project
+  acts_as_list scope: :project
 
-  validates :name, presence: true
   validates :name, presence: true, on: :update
-  validates :project_id, presence: true
   validates :project_id, presence: true, on: :update
 
 end

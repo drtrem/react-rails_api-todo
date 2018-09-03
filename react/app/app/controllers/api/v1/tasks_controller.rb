@@ -1,18 +1,13 @@
 module Api::V1
   class TasksController < ApplicationController
-    before_action :set_task, only: [:show, :update, :destroy]
+    before_action :set_task, only: [:up, :down, :update, :destroy]
     before_action :authenticate_api_v1_user!
 
     # GET /tasks
     def index
-      @tasks = Task.all
+      @tasks = Task.where(project_id: Project.where(user_id: current_api_v1_user.id))
 
       render json: @tasks
-    end
-
-    # GET /tasks/1
-    def show
-      render json: @task
     end
 
     # POST /tasks
@@ -28,16 +23,21 @@ module Api::V1
 
     # PATCH/PUT /tasks/1
     def update
-      if @task.update(task_params)
+      if task_params[:move] 
+        move
         render json: @task
       else
-        render json: @task.errors, status: :unprocessable_entity
+        if @task.update(task_params)
+          render json: @task
+        else
+          render json: @task.errors, status: :unprocessable_entity
+        end
       end
     end
 
     # DELETE /tasks/1
     def destroy
-      @task.destroy
+      #@task.destroy
       if @task.destroy
         head :no_content, status: :ok
       else
@@ -53,7 +53,15 @@ module Api::V1
 
       # Only allow a trusted parameter "white list" through.
       def task_params
-        params.require(:task).permit(:name, :status, :project_id, :date)
+        params.require(:task).permit(:name, :status, :project_id, :date, :move)
+      end
+
+      def move
+        if task_params[:move] == 'up'
+          @task.move_higher
+        else
+          @task.move_lower
+        end
       end
   end
 end

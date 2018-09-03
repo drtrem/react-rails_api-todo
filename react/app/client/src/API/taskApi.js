@@ -35,6 +35,14 @@ export function editTask(id, name, status, project_id, date) {
   .catch((error) => {console.log(error)})
 } 
 
+export function moveTask(id, move) { 
+  axios.put( '/api/v1/tasks/' + id, { task: {move} })
+  .then((response) => {
+    getTasks()
+  })
+  .catch((error) => {console.log(error)})
+} 
+
 export function editingTask(id) {
   store.dispatch(editingTaskSuccess(id));
 }
