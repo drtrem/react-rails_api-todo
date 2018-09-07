@@ -8,7 +8,7 @@ end
 gem 'rails', '~> 5.0.6'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
-gem 'devise_token_auth', '~> 0.1.43'
+gem 'devise_token_auth'
 gem 'acts_as_list'
 
 group :development, :test do
