@@ -24,15 +24,15 @@ class Task extends Component {
                         checked={task.status}
                         onChange={() => taskApi.editTask(task.id, task.name, (task.status ? false : true), task.project_id, task.date)}>
                       </input>
-                      <span>{task.name}</span>
+                      <span className="taskname">{task.name}</span>
                       <a onClick={() => taskApi.removeTask(task.id)} className="delete-button"><img src="img/delete.png" alt=""/></a>
                       <a onClick={() => taskApi.editingTask(task.id)} className="edit-button"><img src="img/edit.png" alt=""/></a>
                       <div className="move">
-                        <a onClick={() => taskApi.moveTask(task.id, 'up')} className="edit-button movebutton"><img src="img/move_up.png" alt=""/></a>
+                        <a onClick={() => taskApi.moveTask(task.id, 'up')} className="edit-button movebutton up"><img src="img/move_up.png" alt=""/></a>
                         
                         <a onClick={() => taskApi.moveTask(task.id, 'down')} className="edit-button movebutton down"><img src="img/move_down.png" alt=""/></a>
                       </div>
-                      <a><Date task={task} editTask={taskApi.editTask} /></a>
+                      <a className="data"><Date task={task} editTask={taskApi.editTask} /></a>
                     </form>
                   </div>
                 </div>);

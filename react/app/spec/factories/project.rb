@@ -1,7 +1,8 @@
-FactoryGirl.define do
+FactoryBot.define do
 
   factory :project do
-    name                  'test'
+    name { Faker::Name.name } 
+    user
   end
 
 end 

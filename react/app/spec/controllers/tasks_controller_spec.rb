@@ -2,9 +2,14 @@ require 'rails_helper'
 
 RSpec.describe Api::V1::TasksController, type: :controller do
 
-  let(:project)   { create(:project) }
+  include Devise::Test::ControllerHelpers
+
+  let(:user)      { FactoryBot.create :user }
+  let(:project)      { FactoryBot.create :project, user: user }
 
   before do
+    authenticate_user user
+
     format = Mime[:JSON].to_s
     request.headers['Accept'] = format
     request.headers['Content-Type'] = format
@@ -19,7 +24,7 @@ RSpec.describe Api::V1::TasksController, type: :controller do
     end
 
     it 'returns all tasks' do
-      create_list(:task, 5)
+      create_list(:task, 5, project: project)
       get :index, format: :json
       expect(json.length).to eq(5)
     end
@@ -82,6 +87,17 @@ RSpec.describe Api::V1::TasksController, type: :controller do
         patch :update, params: { id: @task, task: @attributes }, as: :json
         expect(response.status).to eq 422
       end
+    end
+
+    it 'change tasks priority' do
+      tasks = create_list(:task, 2, project: project)
+      @task = tasks.last
+      @attributes = attributes_for(:task, move: 'up')
+      before_sort = Task.all.order('position').pluck(:id)
+      patch :update, params: { id: @task, task: @attributes }, as: :json
+      after_sort = Task.all.order('position').pluck(:id)
+
+      expect(after_sort).to eq before_sort.reverse
     end
   end
 

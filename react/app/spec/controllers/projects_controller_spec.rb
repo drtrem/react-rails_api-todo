@@ -2,9 +2,19 @@ require 'rails_helper'
 
 RSpec.describe Api::V1::ProjectsController, type: :controller do
 
-  let(:project)      { FactoryGirl.create :project }
+  include Devise::Test::ControllerHelpers
+
+  let(:user)      { FactoryBot.create :user }
+  let(:project)      { FactoryBot.create :project, user: user }
+
+  it "doesn't give you anything if you don't log in" do
+     get :index, format: :json
+     expect(JSON.parse(response.body)).to eq([])                  
+  end    
 
   before do
+    authenticate_user user
+
     format = Mime[:JSON].to_s
     request.headers['Accept'] = format
     request.headers['Content-Type'] = format
@@ -19,18 +29,26 @@ RSpec.describe Api::V1::ProjectsController, type: :controller do
     end
 
     it 'returns all projects' do
-      create_list(:project, 5)
+      create_list(:project, 5, user: user)
       get :index, format: :json
       expect(json.length).to eq(5)
     end
 
+    it 'returns all projects only sign_in user' do
+      user_not_sign_in = create(:user)
+      create_list(:project, 5, user: user )
+      create_list(:project, 5, user: user_not_sign_in )
+
+      get :index, format: :json
+      expect(json.length).to eq(5)
+    end
   end
 
   describe 'POST create' do
     context 'with valid name' do
       it 'creates a project' do
         expect{
-          post :create, params: { project: attributes_for(:project) }, as: :json
+          post :create, params: { project: attributes_for(:project, ) }, as: :json
         }.to change(Project, :count).by(1)
       end
     end
@@ -64,7 +82,6 @@ RSpec.describe Api::V1::ProjectsController, type: :controller do
         expect{ patch :update, params: { id: @project, project: @attributes }, as: :json }
           .to_not change(Project, :count)
       end
-
     end
 
     context 'with invalid name' do

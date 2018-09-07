@@ -6,10 +6,16 @@ require "spec_helper"
 require "rspec/rails"
 require "capybara/rspec"
 
+require 'devise'
+Dir[Rails.root.join("spec/support/*.rb")].each {|f| require f}
+
 ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|
-  config.include FactoryGirl::Syntax::Methods
+  config.include FactoryBot::Syntax::Methods
+  #config.include Devise::Test::ControllerHelpers
+  config.include AuthenticationHelper, type: :controller
+  config.include FeatureHelpers, type: :feature
   config.include(Shoulda::Matchers::ActiveModel, type: :model)
   config.include(Shoulda::Matchers::ActiveRecord, type: :model)
 

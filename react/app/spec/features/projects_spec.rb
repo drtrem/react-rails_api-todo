@@ -1,8 +1,10 @@
 require "rails_helper"
 feature 'Projects', type: :feature, js: true do
 
-  background do
-    visit('http://localhost:3000/')
+  let(:user) { FactoryBot.create :user  }
+
+  before (:each) do
+    sign_in_as(user)
   end
 
   scenario 'have main projects container' do

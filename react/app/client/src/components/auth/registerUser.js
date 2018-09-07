@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { registerUser } from '../../redux-token-auth-config' // <-- note this is YOUR file, not the redux-token-auth NPM module
  
 class RegisterScreen extends Component {
+
   constructor (props) { 
     super(props)
     this.state = {
@@ -37,13 +38,13 @@ class RegisterScreen extends Component {
         <div className='sign'><a href="/signin" >Sign in </a></div>
         <h2>Sign up</h2>
         <form onSubmit={this.submitForm}>  
-          <input className="input-project center-block"
+          <input className="input-project center-block email"
             name="email"
             type="text"
             value={this.state.email}
             onChange={this.handleChange}
             placeholder="email" required />
-          <input className="input-project center-block"
+          <input className="input-project center-block password"
             name="password"
             type="text"
             value={this.state.password}
@@ -56,7 +57,4 @@ class RegisterScreen extends Component {
   }
 }
  
-export default connect(
-  null,
-  { registerUser },
-)(RegisterScreen)
+export default connect(null,{ registerUser })(RegisterScreen)

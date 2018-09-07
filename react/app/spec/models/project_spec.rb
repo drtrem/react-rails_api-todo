@@ -2,7 +2,10 @@ require 'rails_helper'
 
 RSpec.describe Project, type: :model do
 
-  subject(:project) { FactoryGirl.build :project }
+  subject(:project) { FactoryBot.build :project }
+
+  it { should belong_to :user }
+  it { should have_many :tasks }
 
   it { should be_valid }
 

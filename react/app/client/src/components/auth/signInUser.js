@@ -39,13 +39,13 @@ class SignInScreen extends Component {
         <div className='sign'><a href="/register" >Sign up </a></div>
         <h2>Sign in</h2>
         <form onSubmit={this.submitForm}>  
-          <input className="input-project center-block"
+          <input className="input-project center-block email"
             name="email"
             type="text"
             value={this.state.email}
             onChange={this.handleChange}
             placeholder="email" required />
-          <input className="input-project center-block"
+          <input className="input-project center-block password"
             name="password"
             type="text"
             value={this.state.password}
