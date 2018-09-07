@@ -1,7 +1,7 @@
 module Api::V1
   class ProjectsController < ApplicationController
     before_action :set_project, only: [:update, :destroy]
-    before_action :authenticate_api_v1_user!
+    #before_action :authenticate_api_v1_user!
 
     # GET /projects
     def index

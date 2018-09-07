@@ -1,7 +1,7 @@
 module Api::V1
   class TasksController < ApplicationController
     before_action :set_task, only: [:up, :down, :update, :destroy]
-    before_action :authenticate_api_v1_user!
+    #before_action :authenticate_api_v1_user!
 
     # GET /tasks
     def index
