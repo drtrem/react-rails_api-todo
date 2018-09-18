@@ -2,7 +2,27 @@ import axios from 'axios';
 import store from '../index';
 import { getProjectsSuccess, setProjectSuccess, removeProjectSuccess, editingProjectSuccess, editProjectSuccess } from '../actions/projectActions';
 
+export const setupInterceptors = () => {
+  axios.interceptors.request.use(
+    (config) => {
+      // eslint-disable-next-line
+      config.headers = {
+        ...config.headers,
+        'access-token': localStorage.getItem('access-token'),
+        client: localStorage.getItem('client'),
+        uid: localStorage.getItem('uid'),
+      };
+
+      return config;
+    },
+    error =>
+      // Do something with request error
+      Promise.reject(error),
+  );
+};
+
 export function getProjects() {
+  setupInterceptors();
   return axios.get('/api/v1/projects.json')
     .then(response => {
       store.dispatch(getProjectsSuccess(response.data));
