@@ -1,7 +1,7 @@
 import { generateAuthActions } from 'redux-token-auth'
  
 const config = {
-  authUrl: "http://blooming-dawn-18533.herokuapp.com/auth",
+  authUrl: "https://blooming-dawn-18533.herokuapp.com/auth",
   storage: {
     flushGetRequests: false
   },
